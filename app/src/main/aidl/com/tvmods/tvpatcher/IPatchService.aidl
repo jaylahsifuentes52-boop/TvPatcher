@@ -1,4 +1,4 @@
-package com.juniormods.juniorpatcher;
+package com.juniormod.juniorpatcher;
 
 interface IPatchService {
     void destroy() = 16777114;
