@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TvPatcher"
+rootProject.name = "JuniorPatcher"
 include(":app")
