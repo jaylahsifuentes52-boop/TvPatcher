@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
                 verifyOtpButton.isEnabled = true
                 if (result.ok) {
                     otpVerified = true
-                    setStatus("✓ OTP verified. You can now use TvPatcher.")
+                    setStatus("✓ OTP verified. You can now use JuniorPatcher.")
                     updateUi()
                 } else {
                     otpVerified = false
@@ -216,7 +216,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
         if (Shizuku.shouldShowRequestPermissionRationale()) {
-            setStatus("Allow TvPatcher in the privilege manager.")
+            setStatus("Allow JuniorPatcher in the privilege manager.")
             return
         }
         setStatus("Requesting Patch Access...")
