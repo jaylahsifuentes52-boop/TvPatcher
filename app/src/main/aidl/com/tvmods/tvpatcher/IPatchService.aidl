@@ -1,4 +1,4 @@
-package com.tvmods.tvpatcher;
+package com.juniormods.juniorpatcher;
 
 interface IPatchService {
     void destroy() = 16777114;
