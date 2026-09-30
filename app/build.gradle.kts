@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.tvmods.tvpatcher"
+    namespace = "com.juniormods.juniorpatcher"
 
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.tvmods.tvpatcher"
+        applicationId = "com.juniormods.juniorpatcher"
         minSdk = 26
         targetSdk = 36
         versionCode = 5
