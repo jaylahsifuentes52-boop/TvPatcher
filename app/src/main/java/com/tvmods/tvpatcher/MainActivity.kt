@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         private const val SHIZUKU_REQUEST_CODE = 1401
         private const val BYTEZUKU_PACKAGE = "com.byteus.bytezuku"
         private const val SHIZUKU_PACKAGE = "moe.shizuku.privileged.api"
-        private const val OTP_API_BASE = "https://tvbot-pvr5.onrender.com"
+        private const val OTP_API_BASE = "https://e-dy27.onrender.com/"
     }
 
     private lateinit var grantButton: Button
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     private fun createServiceArgs(): Shizuku.UserServiceArgs {
         return Shizuku.UserServiceArgs(ComponentName(this, PatchService::class.java))
             .daemon(false)
-            .tag("TvPatcher")
+            .tag("JuniorPatcher")
             .version(1)
             .processNameSuffix("patch")
     }
