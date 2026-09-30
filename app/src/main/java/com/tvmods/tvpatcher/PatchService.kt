@@ -1,4 +1,4 @@
-package com.tvmods.tvpatcher
+package com.juniormods.juniorpatcher
 
 import android.os.SystemClock
 import java.io.BufferedReader
