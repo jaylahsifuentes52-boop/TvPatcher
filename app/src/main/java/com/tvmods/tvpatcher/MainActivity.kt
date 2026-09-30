@@ -1,4 +1,4 @@
-package com.tvmods.tvpatcher
+package com.Juniormods.JuniorPatcher
 
 import android.content.ComponentName
 import android.content.Intent
